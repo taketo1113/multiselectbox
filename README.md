@@ -26,7 +26,7 @@ $(function() {
       <a class="btn-move-up" href="#">Up</a>
       <a class="btn-move-down" href="#">Down</a>
     </div>
-    <select class="selectable form-control" multiple="multiple" size="10">
+    <select class="selectable" multiple="multiple" size="10">
       <option value="">Item1</option>
       <option value="">Item2</option>
       <option value="">Item3</option>
