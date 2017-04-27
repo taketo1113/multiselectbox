@@ -1,0 +1,10 @@
+.bundle
+.irb_history
+.idea
+log/*.log
+tmp/**/*
+public/system/*
+vendor/bundler
+config/database.yml
+.DS_Store
+*~
