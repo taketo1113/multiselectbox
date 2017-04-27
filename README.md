@@ -17,7 +17,24 @@ $(function() {
 </script>
 ```
 ### HTML
-(TBD)
+```html
+  <div id="selectbox">
+    <select class="selected" multiple="multiple" size="10"></select>
+    <div>
+      <a class="btn-move-selected" href="#">Add</a>
+      <a class="btn-move-selectable" href="#">Delete</a>
+      <a class="btn-move-up" href="#">Up</a>
+      <a class="btn-move-down" href="#">Down</a>
+    </div>
+    <select class="selectable form-control" multiple="multiple" size="10">
+      <option value="">Item1</option>
+      <option value="">Item2</option>
+      <option value="">Item3</option>
+      <option value="">Item4</option>
+      <option value="">Item5</option>
+    </select>
+  </div>
+```
 
 ## Options
 | Name | Type | Default | Description |
