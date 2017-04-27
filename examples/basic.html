@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>multiselectbox Basic Sample</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="../src/jquery.multiselectbox.js"></script>
+  <script>
+    $(function() {
+      $('#selectbox').multiSelectbox();
+    });
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-header">multiselectbox Basic Sample</h1>
+
+    <div id="selectbox">
+      <div class="col-md-5">
+	<h2>Selected</h2>
+	<select class="selected form-control" multiple="multiple" size="10">
+	</select>
+      </div>
+      <div class="col-md-1">
+	<a class="btn-move-selected btn btn-default btn-xs" href="#">Add</a>
+	<a class="btn-move-selectable btn btn-default btn-xs" href="#">Delete</a>
+	<a class="btn-move-up btn btn-default btn-xs" href="#">Up</a>
+	<a class="btn-move-down btn btn-default btn-xs" href="#">Down</a>
+      </div>
+      <div class="col-md-5">
+	<h2>Selectable</h2>
+	<select class="selectable form-control" multiple="multiple" size="10">
+	  <option value="">Item1</option>
+	  <option value="">Item2</option>
+	  <option value="">Item3</option>
+	  <option value="">Item4</option>
+	  <option value="">Item5</option>
+	</select>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
