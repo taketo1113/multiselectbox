@@ -1,6 +1,9 @@
 /*
  * jQuery MultiSelectbox
+ * https://github.com/taketo1113/multiselectbox
  *
+ * Copyright 2017 Taketo Takashima
+ * Released under the MIT license
  */
 
 (function( $ ) {
